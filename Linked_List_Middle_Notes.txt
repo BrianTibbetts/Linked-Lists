@@ -3,7 +3,7 @@ Linked List Data Structure:
     C pointers review: '*', '&', and '->' are important operators when using pointers.
         * - The defererencing operator, which returns the value of a variable at a given address
         & - The referencing operator, which returns the address of a given variable
-        -> - A shorthand operator for dereferencing a member of a struct, for example foo->bar is equivalent to (*foo).bar
+        -> - A shorthand operator for dereferencing a struct and retrieving one of its members, for example foo->bar is equivalent to (*foo).bar
         
 -A linked list begins with a head, the first node which is not pointed to by other nodes, and ends with a tail, which points to no other nodes.
 
