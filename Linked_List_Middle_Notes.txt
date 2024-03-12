@@ -1,0 +1,13 @@
+Linked List Data Structure:
+-Linked lists consist of nodes which contain a value and a pointer to another node.
+    C pointers review: '*', '&', and '->' are important operators when using pointers.
+        * - The defererencing operator, which returns the value of a variable at a given address
+        & - The referencing operator, which returns the address of a given variable
+        -> - A shorthand operator for dereferencing a member of a struct, for example foo->bar is equivalent to (*foo).bar
+        
+-A linked list begins with a head, the first node which is not pointed to by other nodes, and ends with a tail, which points to no other nodes.
+	-The head node isn't pointed to by any of the other nodes.
+	-Every node points to the next except for the tail.
+
+Strategy for Finding the Middle Node:
+-Find the length of a linked list, then integer divide that length by 2. The length will always round to the number of nodes that need to be traversed to reach the middle.
